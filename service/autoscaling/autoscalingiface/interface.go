@@ -9,9 +9,9 @@
 package autoscalingiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/autoscaling"
+	"github.com/pendo-io/aws-sdk-go/aws"
+	"github.com/pendo-io/aws-sdk-go/aws/request"
+	"github.com/pendo-io/aws-sdk-go/service/autoscaling"
 )
 
 // AutoScalingAPI provides an interface to enable mocking the

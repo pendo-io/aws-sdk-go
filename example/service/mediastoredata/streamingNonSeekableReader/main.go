@@ -10,10 +10,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/mediastore"
-	"github.com/aws/aws-sdk-go/service/mediastoredata"
+	"github.com/pendo-io/aws-sdk-go/aws"
+	"github.com/pendo-io/aws-sdk-go/aws/session"
+	"github.com/pendo-io/aws-sdk-go/service/mediastore"
+	"github.com/pendo-io/aws-sdk-go/service/mediastoredata"
 )
 
 func main() {

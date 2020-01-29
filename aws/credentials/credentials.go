@@ -53,7 +53,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
+	"github.com/pendo-io/aws-sdk-go/aws/awserr"
 )
 
 // AnonymousCredentials is an empty Credential object that can be used as

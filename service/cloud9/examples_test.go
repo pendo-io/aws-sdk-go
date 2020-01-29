@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/cloud9"
+	"github.com/pendo-io/aws-sdk-go/aws"
+	"github.com/pendo-io/aws-sdk-go/aws/awserr"
+	"github.com/pendo-io/aws-sdk-go/aws/session"
+	"github.com/pendo-io/aws-sdk-go/service/cloud9"
 )
 
 var _ time.Duration

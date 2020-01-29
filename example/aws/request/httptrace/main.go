@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/sns"
+	"github.com/pendo-io/aws-sdk-go/aws"
+	"github.com/pendo-io/aws-sdk-go/aws/session"
+	"github.com/pendo-io/aws-sdk-go/service/sns"
 )
 
 var clientCfg ClientConfig

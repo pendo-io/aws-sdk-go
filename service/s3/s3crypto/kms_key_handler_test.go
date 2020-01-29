@@ -10,9 +10,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/service/kms"
+	"github.com/pendo-io/aws-sdk-go/aws"
+	"github.com/pendo-io/aws-sdk-go/awstesting/unit"
+	"github.com/pendo-io/aws-sdk-go/service/kms"
 )
 
 func TestBuildKMSEncryptHandler(t *testing.T) {

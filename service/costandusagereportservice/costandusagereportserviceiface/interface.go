@@ -9,9 +9,9 @@
 package costandusagereportserviceiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/costandusagereportservice"
+	"github.com/pendo-io/aws-sdk-go/aws"
+	"github.com/pendo-io/aws-sdk-go/aws/request"
+	"github.com/pendo-io/aws-sdk-go/service/costandusagereportservice"
 )
 
 // CostandUsageReportServiceAPI provides an interface to enable mocking the

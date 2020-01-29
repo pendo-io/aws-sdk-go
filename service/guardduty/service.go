@@ -3,12 +3,12 @@
 package guardduty
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/signer/v4"
-	"github.com/aws/aws-sdk-go/private/protocol/restjson"
+	"github.com/pendo-io/aws-sdk-go/aws"
+	"github.com/pendo-io/aws-sdk-go/aws/client"
+	"github.com/pendo-io/aws-sdk-go/aws/client/metadata"
+	"github.com/pendo-io/aws-sdk-go/aws/request"
+	"github.com/pendo-io/aws-sdk-go/aws/signer/v4"
+	"github.com/pendo-io/aws-sdk-go/private/protocol/restjson"
 )
 
 // GuardDuty provides the API operation methods for making requests to

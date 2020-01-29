@@ -11,14 +11,14 @@ import (
 	"bytes"
 	"encoding/xml"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/endpoints"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/private/protocol/restxml"
-	"github.com/aws/aws-sdk-go/service/cloudfront"
-	"github.com/aws/aws-sdk-go/service/s3"
+	"github.com/pendo-io/aws-sdk-go/aws"
+	"github.com/pendo-io/aws-sdk-go/aws/credentials"
+	"github.com/pendo-io/aws-sdk-go/aws/endpoints"
+	"github.com/pendo-io/aws-sdk-go/aws/request"
+	"github.com/pendo-io/aws-sdk-go/aws/session"
+	"github.com/pendo-io/aws-sdk-go/private/protocol/restxml"
+	"github.com/pendo-io/aws-sdk-go/service/cloudfront"
+	"github.com/pendo-io/aws-sdk-go/service/s3"
 )
 
 var (

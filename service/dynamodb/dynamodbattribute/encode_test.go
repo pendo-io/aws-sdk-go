@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/service/dynamodb"
+	"github.com/pendo-io/aws-sdk-go/aws"
+	"github.com/pendo-io/aws-sdk-go/aws/awserr"
+	"github.com/pendo-io/aws-sdk-go/service/dynamodb"
 )
 
 func TestMarshalErrorTypes(t *testing.T) {

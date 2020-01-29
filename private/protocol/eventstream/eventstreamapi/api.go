@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/private/protocol"
-	"github.com/aws/aws-sdk-go/private/protocol/eventstream"
+	"github.com/pendo-io/aws-sdk-go/aws"
+	"github.com/pendo-io/aws-sdk-go/private/protocol"
+	"github.com/pendo-io/aws-sdk-go/private/protocol/eventstream"
 )
 
 // Unmarshaler provides the interface for unmarshaling a EventStream

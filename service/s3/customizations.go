@@ -1,9 +1,9 @@
 package s3
 
 import (
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/s3err"
+	"github.com/pendo-io/aws-sdk-go/aws/client"
+	"github.com/pendo-io/aws-sdk-go/aws/request"
+	"github.com/pendo-io/aws-sdk-go/internal/s3err"
 )
 
 func init() {

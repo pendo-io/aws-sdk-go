@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
+	"github.com/pendo-io/aws-sdk-go/aws/awserr"
 )
 
 type stubProvider struct {

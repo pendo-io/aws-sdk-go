@@ -5,8 +5,8 @@ package route53
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/pendo-io/aws-sdk-go/aws"
+	"github.com/pendo-io/aws-sdk-go/aws/request"
 )
 
 // WaitUntilResourceRecordSetsChanged uses the Route 53 API operation

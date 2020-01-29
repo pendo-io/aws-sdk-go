@@ -4,12 +4,12 @@ import (
 	"encoding/hex"
 	"io"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/sdkio"
-	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/aws/aws-sdk-go/service/s3/s3iface"
+	"github.com/pendo-io/aws-sdk-go/aws"
+	"github.com/pendo-io/aws-sdk-go/aws/client"
+	"github.com/pendo-io/aws-sdk-go/aws/request"
+	"github.com/pendo-io/aws-sdk-go/internal/sdkio"
+	"github.com/pendo-io/aws-sdk-go/service/s3"
+	"github.com/pendo-io/aws-sdk-go/service/s3/s3iface"
 )
 
 // DefaultMinFileSize is used to check whether we want to write to a temp file

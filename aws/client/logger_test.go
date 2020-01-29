@@ -9,11 +9,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/corehandlers"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/pendo-io/aws-sdk-go/aws"
+	"github.com/pendo-io/aws-sdk-go/aws/client/metadata"
+	"github.com/pendo-io/aws-sdk-go/aws/corehandlers"
+	"github.com/pendo-io/aws-sdk-go/aws/credentials"
+	"github.com/pendo-io/aws-sdk-go/aws/request"
 )
 
 type mockCloser struct {

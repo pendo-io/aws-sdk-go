@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/internal/ini"
+	"github.com/pendo-io/aws-sdk-go/aws/credentials"
+	"github.com/pendo-io/aws-sdk-go/internal/ini"
 )
 
 var (

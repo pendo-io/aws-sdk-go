@@ -3,12 +3,12 @@ package s3crypto
 import (
 	"strings"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/kms"
-	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/aws/aws-sdk-go/service/s3/s3iface"
+	"github.com/pendo-io/aws-sdk-go/aws"
+	"github.com/pendo-io/aws-sdk-go/aws/client"
+	"github.com/pendo-io/aws-sdk-go/aws/request"
+	"github.com/pendo-io/aws-sdk-go/service/kms"
+	"github.com/pendo-io/aws-sdk-go/service/s3"
+	"github.com/pendo-io/aws-sdk-go/service/s3/s3iface"
 )
 
 // WrapEntry is builder that return a proper key decrypter and error

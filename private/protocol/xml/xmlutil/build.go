@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/aws/aws-sdk-go/private/protocol"
+	"github.com/pendo-io/aws-sdk-go/private/protocol"
 )
 
 // BuildXML will serialize params into an xml.Encoder. Error will be returned
