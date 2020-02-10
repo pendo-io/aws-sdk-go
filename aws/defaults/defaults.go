@@ -24,7 +24,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/ec2metadata"
 	"github.com/aws/aws-sdk-go/aws/endpoints"
 	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/shareddefaults"
+	"github.com/pendo-io/aws-sdk-go/internal/shareddefaults"
 )
 
 // A Defaults provides a collection of default values for SDK clients.

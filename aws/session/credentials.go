@@ -11,7 +11,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/credentials/stscreds"
 	"github.com/aws/aws-sdk-go/aws/defaults"
 	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/shareddefaults"
+	"github.com/pendo-io/aws-sdk-go/internal/shareddefaults"
 )
 
 func resolveCredentials(cfg *aws.Config,

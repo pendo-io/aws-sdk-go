@@ -19,8 +19,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/defaults"
 	"github.com/aws/aws-sdk-go/aws/endpoints"
 	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/sdktesting"
-	"github.com/aws/aws-sdk-go/internal/shareddefaults"
+	"github.com/pendo-io/aws-sdk-go/internal/sdktesting"
+	"github.com/pendo-io/aws-sdk-go/internal/shareddefaults"
 	"github.com/aws/aws-sdk-go/service/sts"
 )
 

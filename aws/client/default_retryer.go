@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/sdkrand"
+	"github.com/pendo-io/aws-sdk-go/internal/sdkrand"
 )
 
 // DefaultRetryer implements basic retry logic using exponential backoff for

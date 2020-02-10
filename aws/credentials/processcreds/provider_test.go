@@ -15,7 +15,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/aws/credentials/processcreds"
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/internal/sdktesting"
+	"github.com/pendo-io/aws-sdk-go/internal/sdktesting"
 )
 
 func TestProcessProviderFromSessionCfg(t *testing.T) {

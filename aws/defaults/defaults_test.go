@@ -10,8 +10,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds"
 	"github.com/aws/aws-sdk-go/aws/credentials/endpointcreds"
 	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/sdktesting"
-	"github.com/aws/aws-sdk-go/internal/shareddefaults"
+	"github.com/pendo-io/aws-sdk-go/internal/sdktesting"
+	"github.com/pendo-io/aws-sdk-go/internal/shareddefaults"
 )
 
 func TestHTTPCredProvider(t *testing.T) {

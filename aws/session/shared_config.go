@@ -5,7 +5,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/internal/ini"
+	"github.com/pendo-io/aws-sdk-go/internal/ini"
 )
 
 const (

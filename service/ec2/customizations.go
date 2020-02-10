@@ -8,7 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/client"
 	"github.com/aws/aws-sdk-go/aws/endpoints"
 	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/sdkrand"
+	"github.com/pendo-io/aws-sdk-go/internal/sdkrand"
 )
 
 type retryer struct {
