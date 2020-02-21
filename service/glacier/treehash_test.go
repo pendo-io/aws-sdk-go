@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/aws/aws-sdk-go/service/glacier"
+	"github.com/pendo-io/aws-sdk-go/service/glacier"
 )
 
 func ExampleComputeHashes() {

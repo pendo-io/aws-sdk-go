@@ -14,14 +14,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/defaults"
-	"github.com/aws/aws-sdk-go/aws/endpoints"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/sdktesting"
-	"github.com/aws/aws-sdk-go/internal/shareddefaults"
-	"github.com/aws/aws-sdk-go/service/sts"
+	"github.com/pendo-io/aws-sdk-go/aws"
+	"github.com/pendo-io/aws-sdk-go/aws/credentials"
+	"github.com/pendo-io/aws-sdk-go/aws/defaults"
+	"github.com/pendo-io/aws-sdk-go/aws/endpoints"
+	"github.com/pendo-io/aws-sdk-go/aws/request"
+	"github.com/pendo-io/aws-sdk-go/internal/sdktesting"
+	"github.com/pendo-io/aws-sdk-go/internal/shareddefaults"
+	"github.com/pendo-io/aws-sdk-go/service/sts"
 )
 
 func setupCredentialsEndpoints(t *testing.T) (endpoints.Resolver, func()) {

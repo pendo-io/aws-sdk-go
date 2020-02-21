@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/signer/v4"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/service/s3"
+	"github.com/pendo-io/aws-sdk-go/aws"
+	"github.com/pendo-io/aws-sdk-go/aws/request"
+	"github.com/pendo-io/aws-sdk-go/aws/signer/v4"
+	"github.com/pendo-io/aws-sdk-go/awstesting/unit"
+	"github.com/pendo-io/aws-sdk-go/service/s3"
 )
 
 var standaloneSignCases = []struct {

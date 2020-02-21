@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws/awsutil"
+	"github.com/pendo-io/aws-sdk-go/aws/awsutil"
 )
 
 type Struct struct {

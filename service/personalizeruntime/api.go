@@ -3,9 +3,9 @@
 package personalizeruntime
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/pendo-io/aws-sdk-go/aws"
+	"github.com/pendo-io/aws-sdk-go/aws/awsutil"
+	"github.com/pendo-io/aws-sdk-go/aws/request"
 )
 
 const opGetPersonalizedRanking = "GetPersonalizedRanking"

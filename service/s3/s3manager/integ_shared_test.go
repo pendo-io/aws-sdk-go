@@ -9,12 +9,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/awstesting/integration"
-	"github.com/aws/aws-sdk-go/awstesting/integration/s3integ"
-	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/aws/aws-sdk-go/service/s3/s3manager"
+	"github.com/pendo-io/aws-sdk-go/aws"
+	"github.com/pendo-io/aws-sdk-go/aws/session"
+	"github.com/pendo-io/aws-sdk-go/awstesting/integration"
+	"github.com/pendo-io/aws-sdk-go/awstesting/integration/s3integ"
+	"github.com/pendo-io/aws-sdk-go/service/s3"
+	"github.com/pendo-io/aws-sdk-go/service/s3/s3manager"
 )
 
 func init() {

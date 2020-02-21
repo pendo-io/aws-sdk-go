@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
+	"github.com/pendo-io/aws-sdk-go/aws"
 )
 
 func TestTruncateString(t *testing.T) {
